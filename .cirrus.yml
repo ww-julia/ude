@@ -1,16 +1,15 @@
 jupyter_book_task:
   env:
     JULIA_NUM_THREADS: auto
-    JOBS: '2'
+    JOBS: '4'
     GH_TOKEN: ENCRYPTED[!f19399b7d74f554de0824bc7349dc63626e4e6e5575daf3357c8b7cb1de56e5a0ceb0b71575f2dea3b4b366165f7aa60!]
   auto_cancellation: true
   container:
     dockerfile: .ci/Dockerfile
-    cpu: 2
-    memory: 8G
-    use_in_memory_disk: true
+    cpu: 4
+    memory: 16G
   notebook_script: |
-    parallel --joblog /tmp/log -j${JOBS} jupyter nbconvert --to notebook --ExecutePreprocessor.timeout=600 --execute --inplace {} ::: docs/*.ipynb
+    parallel --joblog /tmp/log -j${JOBS} jupyter nbconvert --to notebook --ExecutePreprocessor.timeout=1000 --execute --inplace {} ::: docs/*.ipynb
     cat /tmp/log
   build_script: |
     jupyter-book build docs --warningiserror --keep-going -v

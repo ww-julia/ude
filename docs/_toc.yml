@@ -4,5 +4,7 @@
 format: jb-book
 root: index
 chapters:
-  - file: markdown
-  - file: plots
+  - file: 01-firstexample
+  - file: 02-multishooting
+  - file: 03-neuralpde-ode
+  - file: 04-poission
