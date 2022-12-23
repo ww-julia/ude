@@ -23,9 +23,9 @@ version = "0.4.3"
 
 [[deps.Accessors]]
 deps = ["Compat", "CompositionsBase", "ConstructionBase", "Dates", "InverseFunctions", "LinearAlgebra", "MacroTools", "Requires", "Test"]
-git-tree-sha1 = "eb7a1342ff77f4f9b6552605f27fd432745a53a3"
+git-tree-sha1 = "3fa8cc751763c91a5ea33331e523221009cb1e6f"
 uuid = "7d9f7c33-5ae7-4f3b-8dc6-eff91059b697"
-version = "0.1.22"
+version = "0.1.23"
 
 [[deps.Adapt]]
 deps = ["LinearAlgebra"]
@@ -791,9 +791,9 @@ version = "0.1.0"
 
 [[deps.Integrals]]
 deps = ["ChainRulesCore", "CommonSolve", "Distributions", "ForwardDiff", "HCubature", "LinearAlgebra", "MonteCarloIntegration", "QuadGK", "Reexport", "ReverseDiff", "SciMLBase", "Zygote", "ZygoteRules"]
-git-tree-sha1 = "e229ed952692b60697ff900b3fbf77605590222a"
+git-tree-sha1 = "6a1426c218f1dd1042f84892331f0baea6c2cc00"
 uuid = "de52edbc-65ea-441a-8357-d3a637375a31"
-version = "3.3.0"
+version = "3.4.0"
 
 [[deps.IntegralsCubature]]
 deps = ["Cubature", "Integrals"]
@@ -1848,9 +1848,9 @@ version = "0.19.11"
 
 [[deps.Symbolics]]
 deps = ["ArrayInterfaceCore", "ConstructionBase", "DataStructures", "DiffRules", "Distributions", "DocStringExtensions", "DomainSets", "Groebner", "IfElse", "LaTeXStrings", "LambertW", "Latexify", "Libdl", "LinearAlgebra", "MacroTools", "Markdown", "Metatheory", "NaNMath", "RecipesBase", "Reexport", "Requires", "RuntimeGeneratedFunctions", "SciMLBase", "Setfield", "SparseArrays", "SpecialFunctions", "StaticArrays", "SymbolicUtils", "TermInterface", "TreeViews"]
-git-tree-sha1 = "718328e81b547ef86ebf56fbc8716e6caea17b00"
+git-tree-sha1 = "111fbf43883d95989577133aeeb889f2040d0aea"
 uuid = "0c5d862f-8b57-4792-8d23-62f2024744c7"
-version = "4.13.0"
+version = "4.14.0"
 
 [[deps.TOML]]
 deps = ["Dates"]
@@ -1944,9 +1944,9 @@ version = "0.3.0"
 
 [[deps.TriangularSolve]]
 deps = ["CloseOpenIntervals", "IfElse", "LayoutPointers", "LinearAlgebra", "LoopVectorization", "Polyester", "SnoopPrecompile", "Static", "VectorizationBase"]
-git-tree-sha1 = "9126e77b5d1afee9f94e8a66165e3716603d6054"
+git-tree-sha1 = "766f5b1fc80f667ad6eab787af21e19cd65cb1b7"
 uuid = "d5829a12-d9aa-46ab-831f-fb7c9ab06edf"
-version = "0.1.15"
+version = "0.1.16"
 
 [[deps.Tricks]]
 git-tree-sha1 = "6bac775f2d42a611cdfcd1fb217ee719630c4175"
