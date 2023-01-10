@@ -1,6 +1,7 @@
 [deps]
 DiffEqFlux = "aae7a2af-3d4f-5e19-a356-7da93b79d9d0"
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Lux = "b2108857-7c20-44ae-9111-449ecde12c47"
 ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
